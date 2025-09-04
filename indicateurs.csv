@@ -1,0 +1,627 @@
+code_indicateur;libelle_indicateur;description_indicateur;type_donnees_indicateur;granularite_indicateur
+BM;commune_bib;Commune de la bibliothèque;texte;annuel
+Type rapport;type_rapport;Type de rapport : abrégé / basique / patrimoine;texte;annuel
+Taux de complétude;etat_avancement;Etat d’avancement du remplissage du rapport;numérique;annuel
+Statut;etat_validation;Etat de validation du rapport;texte;annuel
+Typologie;typologie;Typologie des bibliothèques, après 2023;texte;annuel
+Typologie2C;typologie_2c;Typologie des bibliothèques, avant 2023;texte;annuel
+Date dernière modification;derniere_modification;Date de dernière modification du rapport;date;annuel
+Année des données;annee_donnees;Année des données;date;annuel
+nom_uc;nom_uc;Nom de l’unité de coopération;texte;annuel
+referent;referent;Référent de l’enquête annuelle;texte;annuel
+A116;site_internet;Statut site;texte;annuel
+A121;site_internet_accessible;La bibliothèque a-t-elle déposé une attestation de conformité de son site web aux exigences du Référentiel général d'accessibilité pour les administrations (RGAA) ?;oui/non;annuel
+A200;Population_commune;Population de la commune hors EPCI;numérique;annuel
+A203;Population_commune_EPCI;Population de la commune dans EPCI;numérique;annuel
+C101;amplitude_horaire;Nombre d'heures d'ouverture hebdomadaires tous publics;numérique;annuel
+C102;nb_de_jours_ouverture_annuels;Nombre de jours d'ouverture annuels;numérique;annuel
+C103;nombre_de_places;Nombre de places assises disponibles;numérique;annuel
+C105;nb_postes_informatiques_publics;Nombre de postes informatiques publics;numérique;annuel
+C107;nb_de_postes_informatiques_pro;Nombre de postes informatiques professionnels;numérique;annuel
+C110;nb_imprimantes_en_acces_public;Nombre d'imprimantes en accès public;numérique;annuel
+C112;nb_de_bibliobus;Nombre de bibliobus;numérique;annuel
+C115;nb_de_jours_douverture_hebdos;Nombre de jours d’ouverture hebdomadaires;numérique;annuel
+C116;ouverture_le_dimanche;La bibliothèque est-elle ouverte le dimanche ?;oui/non;annuel
+C117;tablettes_mises_a_la_dispositi;Tablettes mises à la disposition du public;numérique;annuel
+C118;liseuses_mises_a_la_dispositio;Liseuses mises à la disposition du public;numérique;annuel
+C119;bornes_decoute;Bornes d’écoute;numérique;annuel
+C120;connexion_wi_fi;Accès wifi;oui/non;annuel
+C121;consoles_de_jeux_video;Consoles de jeux vidéo;numérique;annuel
+C201;le_catalogue_de_la_bib_est_il;Le catalogue de la bibliothèque est-il informatisé ?;oui/non;annuel
+C202;nb_total_de_notices_au_catalog;Nombre total de notices au catalogue;numérique;annuel
+C206;nom_et_version_du_systeme_de_g;Nom et version du système de gestion de la bibliothèque;texte;annuel
+C301;surface;Surface utile nette totale en m2;numérique;annuel
+C309;votre_batiment_est_il_accessib;Votre bâtiment est-il accessible au sens de la loi du 11 février 2005 ?;oui/non;annuel
+D101;impr_adultes_livres_impr_um_fo;Imprimés – Adultes – Livres imprimés – UM – Fonds (hors desserte BDP);numérique;annuel
+D102;impr_adultes_livres_impr_um_ac;Imprimés – Adultes – Livres imprimés – UM – Acquisitions;numérique;annuel
+D103;impr_adultes_livres_impr_um_el;Imprimés – Adultes – Livres imprimés – UM – Eliminations;numérique;annuel
+D116;impr_enfants_livres_impr_um_fo;Imprimés – Enfants – Livres imprimés – UM – Fonds (hors desserte BDP);numérique;annuel
+D117;impr_enfants_livres_impr_um_ac;Imprimés – Enfants – Livres imprimés – UM – Acquisitions;numérique;annuel
+D118;impr_enfants_livres_impr_um_el;Imprimés – Enfants – Livres imprimés – UM – Eliminations;numérique;annuel
+D128;nombre_de_livres;Imprimés – Total – Livres imprimés – UM – Fonds (hors desserte BDP);numérique;annuel
+D129;impr_total_livres_impr_um_acqs;Imprimés – Total – Livres imprimés – UM – Acquisitions;numérique;annuel
+D130;impr_total_livres_impr_um_elim;Imprimés – Total – Livres imprimés – UM – Eliminations;numérique;annuel
+D131;impr_total_livres_impr_nb_de_d;Imprimés – Total – Livres imprimés – dont nombre de dons (ou autres acquisitions à titre gracieux, …) – UM – Acquisitions;numérique;annuel
+D142;impr_enfants_livres_impr_um_en;Imprimés – Enfants – Livres imprimés – UM – En dépôt de la BDP au 31 décembre 2023;numérique;annuel
+D143;impr_total_livres_impr_um_en_d;Imprimés –Total – Livres imprimés – UM – En dépôt de la BDP au 31 décembre 2023;numérique;annuel
+D144;impr_adultes_livres_impr_um_en;Imprimés – Adultes – Livres imprimés – UM – En dépôt de la BDP au 31 décembre 2023;numérique;annuel
+D201;perios_en_cours_imprimees_adul;Publications en série en cours – Imprimées- Adultes – Abonnements;numérique;annuel
+D203;perios_imprimees_en_cours_impr;Publications en série imprimées en cours – Imprimées – Enfants – Abonnements;numérique;annuel
+D211;perios_imprimees_en_cours_tota;Publications en série imprimées en cours – Total – Abonnements;numérique;annuel
+D301;pat_fonds_et_acqs_mss_fonds_ml;Patrimoine – fonds et acquisitions – manuscrits – fonds – (ML);numérique;annuel
+D302;pat_fonds_et_acqs_mss_acqs_ml;Patrimoine – fonds et acquisitions – manuscrits – acquisitions – (ML);numérique;annuel
+D303;pat_fonds_et_acqs_mss_fonds_um;Patrimoine – fonds et acquisitions – manuscrits – fonds – (UM);numérique;annuel
+D304;pat_fonds_et_acqs_mss_acqs_um;Patrimoine – fonds et acquisitions – manuscrits – acquisitions – (UM);numérique;annuel
+D307;autres_docs_docs_cartographiqu;Autres documents – Documents cartographiques – UM – Fonds;numérique;annuel
+D308;autres_docs_docs_cartographi_1;Autres documents – Documents cartographiques – UM – Acquisitions;numérique;annuel
+D309;autres_docs_musique_imprimee_u;Autres documents – Musique imprimée – UM – Fonds;numérique;annuel
+D310;autres_docs_musique_imprimee_1;Autres documents – Musique imprimée – UM – Acquisitions;numérique;annuel
+D314;autres_docs_docs_graphiques_um;Autres documents – Documents graphiques – UM – Fonds;numérique;annuel
+D315;autres_docs_docs_graphiques__1;Autres documents – Documents graphiques – UM – Acquisitions;numérique;annuel
+D320;autres_docs_um_total_eliminati;Autres documents – UM – Total éliminations autres documents;numérique;annuel
+D321;autres_docs_totalisation_abreg;Autres documents – Totalisation Abrégé -Fonds;numérique;annuel
+D322;autres_docs_totalisation_abr_1;Autres documents – Totalisation Abrégé -Acquisitions;numérique;annuel
+D331;est_ce_que_la_bib_possede_daut;Est-ce que la bibliothèque possède d’autres types de documents ?;oui/non;annuel
+D332;jeux_de_societe_fonds;Jeux de société - Fonds;numérique;annuel
+D333;jeux_de_societe_acqs;Jeux de société - Acquisitions;numérique;annuel
+D334;objets_fonds;Objets - Fonds;numérique;annuel
+D335;objets_acqs;Objets - Acquisitions;numérique;annuel
+D336;instruments_fonds;Instruments - Fonds;numérique;annuel
+D337;instruments_acqs;Instruments - Acquisitions;numérique;annuel
+D338;objets_num_fonds;Objets numériques - Fonds;numérique;annuel
+D339;objets_num_acqs;Objets numériques - Acquisitions;numérique;annuel
+D401;docs_audiov_sup_docs_sonores_m;Documents audiovisuels sur support – Documents sonores : musique – Sur support (UM) – Total Fonds;numérique;annuel
+D402;docs_audiov_sup_docs_sonores_1;Documents audiovisuels sur support – Documents sonores : musique – Sur support (UM) – Total Acquisitions;numérique;annuel
+D405;docs_audiov_sup_docs_sonores_l;Documents audiovisuels sur support – Documents sonores : livres enregistrés – Sur support (UM) –Total Fonds;numérique;annuel
+D406;docs_audiov_sup_docs_sonores_2;Documents audiovisuels sur support– Documents sonores : livres enregistrés – Sur support (UM) – Total Acquisitions;numérique;annuel
+D409;nombre_de_cd;Documents audiovisuels sur support– Total documents sonores – Sur support (UM) – Total Fonds (hors desserte BDP);numérique;annuel
+D410;docs_audiov_sup_total_docs_s_1;Documents audiovisuels sur support– Total documents sonores – Sur support (UM) – Total Acquisitions;numérique;annuel
+D411;nombre_de_dvd;Documents audiovisuels sur support– Documents vidéo – Sur support (UM) – Total Fonds (hors desserte BDP);numérique;annuel
+D412;docs_audiov_sup_docs_video_s_1;Documents audiovisuels sur support – Documents vidéo – Sur support (UM) – Total Acquisitions;numérique;annuel
+D416;docs_audiov_sup_docs_sonores_3;Documents audiovisuels sur support – Documents sonores : musique: – Sur support (UM) – Total Éliminations;numérique;annuel
+D417;docs_audiov_sup_docs_sonores_4;Documents audiovisuels sur support – Documents sonores : livres enregistrés –Sur support (UM) – Total Éliminations;numérique;annuel
+D418;docs_audiov_sup_total_docs_s_2;Documents audiovisuels sur support – Total documents sonores – Sur support (UM) - Total éliminations;numérique;annuel
+D419;docs_audiov_sup_docs_video_s_2;Documents audiovisuels sur support – Documents vidéo – Sur support (UM) – Total éliminations;numérique;annuel
+D423;docs_audiov_sup_docs_sonores_5;Documents audiovisuels sur support – Documents sonores : livres enregistrés – Sur support (UM) – Fonds adultes;numérique;annuel
+D424;docs_audiov_sup_docs_sonores_6;Documents audiovisuels sur support– Documents sonores : livres enregistrés – Sur support (UM) – Acquisitions adultes;numérique;annuel
+D425;docs_audiov_sup_docs_sonores_7;Documents audiovisuels sur support– Documents sonores : livres enregistrés – Sur support (UM) – Eliminations adultes;numérique;annuel
+D429;docs_audiov_sup_docs_video_s_3;Documents audiovisuels sur support– Documents vidéo – Sur support (UM) – Fonds adultes;numérique;annuel
+D430;docs_audiov_sup_docs_video_s_4;Documents audiovisuels sur support – Documents vidéo – Sur support (UM) – Acquisitions adultes;numérique;annuel
+D431;docs_audiov_sup_docs_video_s_5;Documents audiovisuels sur support – Documents vidéo – Sur support (UM) – Eliminations adultes;numérique;annuel
+D435;docs_audiov_sup_docs_sonores_8;Documents audiovisuels sur support – Documents sonores : livres enregistrés – Sur support (UM) – Fonds enfants;numérique;annuel
+D436;docs_audiov_sup_docs_sonores_9;Documents audiovisuels sur support– Documents sonores : livres enregistrés – Sur support (UM) – Acquisitions enfants;numérique;annuel
+D437;docs_audiov_sup_docs_sonore_10;Documents audiovisuels sur support– Documents sonores : livres enregistrés – Sur support (UM) – Eliminations enfants;numérique;annuel
+D441;docs_audiov_sup_docs_video_s_6;Documents audiovisuels sur support– Documents vidéo – Sur support (UM) – Fonds enfants;numérique;annuel
+D442;docs_audiov_sup_docs_video_s_7;Documents audiovisuels sur support – Documents vidéo – Sur support (UM) – Acquisitions enfants;numérique;annuel
+D443;docs_audiov_sup_docs_video_s_8;Documents audiovisuels sur support – Documents vidéo – Sur support (UM) – Eliminations enfants;numérique;annuel
+D444;docs_audiov_sup_jeux_videos_su;Documents audiovisuels sur support – Jeux vidéos – Sur support (UM);numérique;annuel
+D445;docs_audiov_sup_jeux_video_sup;Documents audiovisuels sur support– Jeux vidéo – Sur support (UM) – Acquisitions;numérique;annuel
+D446;docs_audiov_sup_jeux_video_s_1;Documents audiovisuels sur support – Jeux vidéo – Sur support (UM) – Eliminiations;numérique;annuel
+D447;docs_audiov_sup_total_docs_s_3;Documents audiovisuels sur support– Total documents sonores – Sur support (UM) – En dépôt de la BDP au 31 décembre 2023;numérique;annuel
+D448;docs_audiov_sup_total_docs_s_4;Documents audiovisuels sur support– Total documents sonores – Sur support (UM) – En dépôt de la BDP au 31 décembre 2023;numérique;annuel
+D450;la_bib_possede_t_elle_des_fond;La bibliothèque possède-t-elle des fonds de CD ou de DVD ?;oui/non;annuel
+D521;ress_num_acq_bq_livres_oui_non;Ressources numériques acquises – bouquets – livres – oui/non;oui/non;annuel
+D522;ress_num_acq_bq_livres_nom_des;Ressources numériques acquises – bouquets – livres – nom des offres;texte;annuel
+D523;ress_num_acq_bq_livres_enregis;Ressources numériques acquises – bouquets – livres enregistrés – oui/non;oui/non;annuel
+D524;ress_num_acq_bq_livres_enreg_1;Ressources numériques acquises – bouquets – livres enregistrés – nom des offres;texte;annuel
+D527;ress_num_acq_bq_musique_oui_no;Ressources numériques acquises – bouquets – musique – oui/non;oui/non;annuel
+D528;ress_num_acq_bq_musique_nom_de;Ressources numériques acquises – bouquets – musique – nom des offres;texte;annuel
+D529;ress_num_acq_bq_video_oui_non;Ressources numériques acquises – bouquets – vidéo – oui/non;oui/non;annuel
+D530;ress_num_acq_bq_video_nom_des;Ressources numériques acquises – bouquets – vidéo – nom des offres;texte;annuel
+D531;ress_num_acq_bq_presse_oui_non;Ressources numériques acquises – bouquets – presse – oui/non;oui/non;annuel
+D532;ress_num_acq_bq_presse_nom_des;Ressources numériques acquises – bouquets – presse – nom des offres;texte;annuel
+D533;ress_num_acq_bq_apprentissage;Ressources numériques acquises – bouquets – apprentissage en ligne – oui/non;oui/non;annuel
+D534;ress_num_acq_bq_apprentissag_1;Ressources numériques acquises – bouquets – apprentissage en ligne – nom des offres;texte;annuel
+D537;ress_num_acq_bq_autres_bq_de_r;Ressources numériques acquises – bouquets – autres bouquets de ressources numériques – oui/non;oui/non;annuel
+D538;ress_num_acq_bq_autres_bq_de_1;Ressources numériques acquises – bouquets – autres bouquets de ressources numériques – nom des offres;texte;annuel
+D551;la_bib_propose_t_elle_des_ress;La bibliothèque propose-t-elle des ressources numériques via la BD ?;oui/non;annuel
+D552;la_bib_propose_t_elle_des_re_1;La bibliothèque propose-t-elle des ressources numériques propres ?;oui/non;annuel
+D553;jeux_video_dematerialises_oui;Jeux vidéo dématérialisés - Oui/non;oui/non;annuel
+D554;jeux_video_dematerialises_nom;Jeux vidéo dématérialisés - Nom des offres;texte;annuel
+D601;la_bib_est_elle_productrice_de;La bibliothèque est-elle productrice de ressources numériques ( hors numérisation patrimoniale) ?;oui/non;annuel
+D611;ress_num_prod_musique_enregist;Ressources numériques produites par l’établissement – Musique, enregistrements sonores – oui/non;oui/non;annuel
+D613;ress_num_prod_musique_enregi_1;Ressources numériques produites par l’établissement – Musique, enregistrements sonores – nombre de documents produits dans l’année;numérique;annuel
+D614;ress_num_prod_video_captations;Ressources numériques produites par l’établissement – Vidéo (dont captations) – oui/non;oui/non;annuel
+D616;ress_num_prod_video_captatio_1;Ressources numériques produites par l’établissement – Vidéo (dont captations) – nombre de documents produits dans l’année;numérique;annuel
+D620;ress_num_prod_signalement_de_r;Ressources numériques produites par l’établissement – Signalement de ressources gratuites – oui/non;oui/non;annuel
+D622;ress_num_prod_signalement_de_1;Ressources numériques produites par l’établissement – Signalement de ressources gratuites – nombre de documents produits dans l’année;numérique;annuel
+D626;ress_num_prod_ress_pedagogique;Ressources numériques produites par l’établissement – Ressources pédagogiques – oui/non;oui/non;annuel
+D628;ress_num_prod_ress_pedagogiq_1;Ressources numériques produites par l’établissement – Ressources pédagogiques – nombre de documents produits dans l’année;numérique;annuel
+D701;collections_adaptees;La bibliothèque propose-t-elle des collections adaptées ?;oui/non;annuel
+D702;braille;Braille;oui/non;annuel
+D703;ouvrages_en_daisy;Ouvrages en Daisy;oui/non;annuel
+D704;revues_en_synthese_vocale;Revues en synthèse vocale;oui/non;annuel
+D705;livres_dvd_en_langue_des_signe;Livres-DVD en langue des signes française (LSF);oui/non;annuel
+D706;livres_tactiles_ou_en_relief;Livres tactiles ou en relief;oui/non;annuel
+D707;autres_collections_adaptees;Autres collections adaptées;oui/non;annuel
+D708;livres_en_gros_caracteres;Livres en gros caractères;oui/non;annuel
+D709;livres_lus_du_commerce;Livres lus du commerce;oui/non;annuel
+D710;livres_num_accessibles;Livres numériques accessibles;oui/non;annuel
+E101;particuliers_inscrits_actifs;Usagers – Particuliers – Inscrits actifs;numérique;annuel
+E102;particuliers_nouveaux_inscrits;Usagers – Particuliers – dont nouveaux inscrits;numérique;annuel
+E103;nombre_d_emprunteurs;Usagers – Particuliers – dont emprunteurs actifs;numérique;annuel
+E104;particuliers_enfants_hommes_in;Usagers – Particuliers – dont Enfants (de 0 à 14 ans) Hommes – Inscrits actifs;numérique;annuel
+E105;particuliers_enfants_hommes_no;Usagers – Particuliers – dont Enfants (de 0 à 14 ans) Hommes – dont nouveaux inscrits;numérique;annuel
+E106;particuliers_enfants_hommes_em;Usagers – Particuliers – dont Enfants (de 0 à 14 ans) Hommes – dont emprunteurs actifs;numérique;annuel
+E107;particuliers_enfants_femmes_in;Usagers – Particuliers – dont Enfants (de 0 à 14 ans) Femmes – Inscrits actifs;numérique;annuel
+E108;particuliers_enfants_femmes_no;Usagers – Particuliers – dont Enfants (de 0 à 14 ans) Femmes – dont nouveaux inscrits;numérique;annuel
+E109;particuliers_enfants_femmes_em;Usagers – Particuliers – dont Enfants (de 0 à 14 ans) Femmes – dont emprunteurs actifs;numérique;annuel
+E148;particuliers_enfants_ne_se_pro;Usagers – Particuliers – dont Enfants (de 0 à 14 ans) Ne se prononce pas – Inscrits actifs;numérique;annuel
+E149;particuliers_enfants_ne_se_p_1;Usagers – Particuliers – dont Enfants (de 0 à 14 ans) Ne se prononce pas – dont nouveaux inscrits;numérique;annuel
+E150;particuliers_enfants_ne_se_p_2;Usagers – Particuliers – dont Enfants (de 0 à 14 ans) Ne se prononce pas – dont emprunteurs actifs;numérique;annuel
+E110;particuliers_enfants_total_ins;Usagers – Particuliers – dont Enfants (de 0 à 14 ans) Total – Inscrits actifs;numérique;annuel
+E111;particuliers_enfants_total_nou;Usagers – Particuliers – dont Enfants (de 0 à 14 ans) Total – dont nouveaux inscrits;numérique;annuel
+E112;particuliers_enfants_total_emp;Usagers – Particuliers – dont Enfants (de 0 à 14 ans) Total – dont emprunteurs actifs;numérique;annuel
+E113;particuliers_adultes_hommes_in;Usagers – Particuliers – dont Adultes (de 15 à 64 ans) Hommes – Inscrits actifs;numérique;annuel
+E114;particuliers_adultes_hommes_no;Usagers – Particuliers – dont Adultes (de 15 à 64 ans) Hommes – dont nouveaux inscrits;numérique;annuel
+E115;particuliers_adultes_hommes_em;Usagers – Particuliers – dont Adultes (de 15 à 64 ans) Hommes – dont emprunteurs actifs;numérique;annuel
+E116;particuliers_adultes_femmes_in;Usagers – Particuliers – dont Adultes (de 15 à 64 ans) Femmes – Inscrits actifs;numérique;annuel
+E117;particuliers_adultes_femmes_no;Usagers – Particuliers – dont Adultes (de 15 à 64 ans) Femmes – dont nouveaux inscrits;numérique;annuel
+E118;particuliers_adultes_femmes_em;Usagers – Particuliers – dont Adultes (de 15 à 64 ans) Femmes – dont emprunteurs actifs;numérique;annuel
+E151;particuliers_enfants_ne_se_p_3;Usagers – Particuliers – dont Enfants (de 15 à 64 ans) Ne se prononce pas – Inscrits actifs;numérique;annuel
+E152;particuliers_enfants_ne_se_p_4;Usagers – Particuliers – dont Enfants (de 15 à 64 ans) Ne se prononce pas – dont nouveaux inscrits;numérique;annuel
+E153;particuliers_enfants_ne_se_p_5;Usagers – Particuliers – dont Enfants (de 15 à 64 ans) Ne se prononce pas – dont emprunteurs actifs;numérique;annuel
+E119;particuliers_adultes_total_ins;Usagers – Particuliers – dont Adultes (de 15 à 64 ans) Total – Inscrits actifs;numérique;annuel
+E120;particuliers_adultes_total_nou;Usagers – Particuliers – dont Adultes (de 15 à 64 ans) Total – dont nouveaux inscrits;numérique;annuel
+E121;particuliers_adultes_total_emp;Usagers – Particuliers – dont Adultes (de 15 à 64 ans) Total – dont emprunteurs actifs;numérique;annuel
+E122;particuliers_adultes_65_hommes;Usagers – Particuliers – dont Adultes (de 65 ans et plus) Hommes – Inscrits actifs;numérique;annuel
+E123;particuliers_adultes_65_homm_1;Usagers – Particuliers – dont Adultes (de 65 ans et plus) Hommes – dont nouveaux inscrits;numérique;annuel
+E124;particuliers_adultes_65_homm_2;Usagers – Particuliers – dont Adultes (de 65 ans et plus) Hommes – dont emprunteurs actifs;numérique;annuel
+E125;particuliers_adultes_65_femmes;Usagers – Particuliers – dont Adultes (de 65 ans et plus) Femmes – Inscrits actifs;numérique;annuel
+E126;particuliers_adultes_65_femm_1;Usagers – Particuliers – dont Adultes (de 65 ans et plus) Femmes – dont nouveaux inscrits;numérique;annuel
+E127;particuliers_adultes_65_femm_2;Usagers – Particuliers – dont Adultes (de 65 ans et plus) Femmes – dont emprunteurs actifs;numérique;annuel
+E154;particuliers_enfants_de_65_ans;Usagers – Particuliers – dont Enfants (de 65 ans et plus) Ne se prononce pas – Inscrits actifs;numérique;annuel
+E155;particuliers_enfants_de_65_a_1;Usagers – Particuliers – dont Enfants (de 65 ans et plus) Ne se prononce pas – dont nouveaux inscrits;numérique;annuel
+E156;particuliers_enfants_de_65_a_2;Usagers – Particuliers – dont Enfants (de 65 ans et plus) Ne se prononce pas – dont emprunteurs actifs;numérique;annuel
+E128;particuliers_adultes_65_total;Usagers – Particuliers – dont Adultes (de 65 ans et plus) Total – Inscrits actifs;numérique;annuel
+E129;particuliers_adultes_65_tota_1;Usagers – Particuliers – dont Adultes (de 65 ans et plus) Total – dont nouveaux inscrits;numérique;annuel
+E130;particuliers_adultes_65_tota_2;Usagers – Particuliers – dont Adultes (de 65 ans et plus) Total – dont emprunteurs actifs;numérique;annuel
+E131;particuliers_total_adultes_hom;Usagers – Particuliers – Total adultes Hommes – Inscrits actifs;numérique;annuel
+E132;particuliers_total_adultes_h_1;Usagers – Particuliers – Total adultes Hommes – dont nouveaux inscrits;numérique;annuel
+E133;particuliers_total_adultes_h_2;Usagers – Particuliers – Total adultes Hommes – dont emprunteurs actifs;numérique;annuel
+E134;particuliers_total_adultes_fem;Usagers – Particuliers – Total adultes Femmes – Inscrits actifs;numérique;annuel
+E135;particuliers_total_adultes_f_1;Usagers – Particuliers – Total adultes Femmes – dont nouveaux inscrits;numérique;annuel
+E136;particuliers_total_adultes_f_2;Usagers – Particuliers – Total adultes Femmes – dont emprunteurs actifs;numérique;annuel
+E157;particuliers_total_adultes_ne;Usagers – Particuliers – Total adultes - Ne se prononce pas – Inscrits actifs;numérique;annuel
+E158;particuliers_total_adultes_n_1;Usagers – Particuliers – Total adultes - Ne se prononce pas – dont nouveaux inscrits;numérique;annuel
+E159;particuliers_total_adultes_n_2;Usagers – Particuliers – Total adultes - Ne se prononce pas – dont emprunteurs actifs;numérique;annuel
+E137;particuliers_total_adultes_ins;Usagers – Particuliers – Total adultes – Inscrits actifs;numérique;annuel
+E138;particuliers_total_adultes_nou;Usagers – Particuliers – Total adultes – dont nouveaux inscrits;numérique;annuel
+E139;particuliers_total_adultes_emp;Usagers – Particuliers – Total adultes – dont emprunteurs actifs;numérique;annuel
+E140;particuliers_residents_dans_la;Usagers – Particuliers – dont résidents dans la commune ou les communes adhérentes au réseau – Inscrits actifs;numérique;annuel
+E141;particuliers_residents_dans__1;Usagers – Particuliers – dont résidents dans la commune ou les communes adhérentes au réseau – dont nouveaux inscrits;numérique;annuel
+E142;particuliers_residents_dans__2;Usagers – Particuliers – dont résidents dans la commune ou les communes adhérentes au réseau – dont emprunteurs actifs;numérique;annuel
+E143;usagers_collectivites_nouveaux;Usagers – Collectivités – dont nouveaux inscrits;numérique;annuel
+E144;usagers_collectivites_emprunte;Usagers – Collectivités – dont emprunteurs actifs;numérique;annuel
+E147;nombre_d_entrees;Usagers – Fréquentation : entrées dans l'établissement;numérique;annuel
+E160;si_frequentation_non_connue_se;Si fréquentation non connue - Semaine test 1;numérique;annuel
+E161;si_frequentation_non_connue__1;Si fréquentation non connue - Semaine test 2;numérique;annuel
+E201;prets_livres_adultes;Prêts – Livres – Adultes;numérique;annuel
+E202;prets_livres_enfants;Prêts – Livres – Enfants;numérique;annuel
+E203;prets_livres_total;Prêts – Livres –Total;numérique;annuel
+E205;prets_perios_imprimees_adultes;Prêts – Publications en série imprimées – Adultes;numérique;annuel
+E206;prets_perios_imprimees_enfants;Prêts – Publications en série imprimées – Enfants;numérique;annuel
+E207;prets_perios_imprimees_total;Prêts – Publications en série imprimées – Total;numérique;annuel
+E211;prets_docs_sonores_musique_tot;Prêts – Documents sonores : musique –Total;numérique;annuel
+E213;prets_docs_sonores_livres_adul;Prêts – Documents sonores : livres – Adultes;numérique;annuel
+E214;prets_docs_sonores_livres_enfa;Prêts – Documents sonores : livres – Enfants;numérique;annuel
+E215;prets_docs_sonores_livres_tota;Prêts – Documents sonores : livres – Total;numérique;annuel
+E217;prets_docs_video_adultes;Prêts – Documents vidéo – Adultes;numérique;annuel
+E218;prets_docs_video_enfants;Prêts – Documents vidéo – Enfants;numérique;annuel
+E219;prets_docs_video_total;Prêts – Documents vidéo – Total;numérique;annuel
+E221;prets_autres_docs_adultes;Prêts – Autres documents – Adultes;numérique;annuel
+E222;prets_autres_docs_enfants;Prêts – Autres documents – Enfants;numérique;annuel
+E223;prets_autres_docs_total;Prêts – Autres documents – Total;numérique;annuel
+E235;prets_docs_sonores_total;Prêts – Documents sonores –Total;numérique;annuel
+E237;prets_adultes_total;Prêts – Adultes – Total;numérique;annuel
+E238;prets_enfants_total;Prêts – Enfants – Total;numérique;annuel
+E239;nombre_de_prets;Prêts – Total – Total;numérique;annuel
+E241;prets_livres_total_pret_sur_do;Prêts – Livres –Total – Dont prêt sur documents de la BDP;numérique;annuel
+E242;prets_docs_sonores_total_pret;Prêts – Documents sonores –Total – Dont prêt sur documents de la BDP;numérique;annuel
+E243;prets_docs_video_total_pret_su;Prêts – Documents vidéo –Total – Dont prêt sur documents de la BDP;numérique;annuel
+E245;prets_docs_sonores_musique_t_1;Prêts – Documents sonores : musique – Total – Dont prêts sur documents de la BDP;numérique;annuel
+E246;prets_docs_sonores_livres_to_1;Prêts – Documents sonores : livres – Total – Dont prêts sur documents de la BDP;numérique;annuel
+E247;prets_total_de_jeux_de_societe;Prêts total de jeux de société;numérique;annuel
+E248;prets_total_de_jeux_video;Prêts total de jeux vidéo;numérique;annuel
+E301;autres_types_usage_consultatio;Autres types d'usage – Consultations sur place;numérique;annuel
+E302;autres_types_usage_reservation;Autres types d'usage – Réservations;numérique;annuel
+E504;services_et_ress_electroniques;Services et ressources électroniques proposés par la bibliothèque – Catalogue en ligne;oui/non;annuel
+E515;services_et_ress_electroniqu_1;Services et ressources électroniques proposés par la bibliothèque – Ressources numériques dont -;oui/non;annuel
+E518;services_et_ress_electroniqu_2;Services et ressources électroniques proposés par la bibliothèque – Ressources numériques dont – Publications en série électroniques – Nombre de contenus consultés;oui/non;annuel
+E532;services_et_ress_electroniqu_3;Services et ressources électroniques proposés par la bibliothèque – Ressources numériques dont – Livres, encyclopédies, dictionnaires – Nombre de consultations;oui/non;annuel
+E534;services_et_ress_electroniqu_4;Services et ressources électroniques proposés par la bibliothèque – Ressources numériques dont – Musique – Nombre de consultations;oui/non;annuel
+E536;services_et_ress_electroniqu_5;Services et ressources électroniques proposés par la bibliothèque – Ressources numériques dont – Vidéo – Nombre de consultations;oui/non;annuel
+E538;services_et_ress_electroniqu_6;Services et ressources électroniques proposés par la bibliothèque – Ressources numériques dont – Autoformation – Nombre de consultations;oui/non;annuel
+E541;services_et_ress_electroniqu_7;Services et ressources électroniques proposés par la bibliothèque – Présence en ligne –Réseaux sociaux;oui/non;annuel
+E542;services_et_ress_electroniqu_8;Services et ressources électroniques proposés par la bibliothèque – Présence en ligne – Si oui, lesquels;texte;annuel
+E544;nb_de_visite_du_site_internet;Nombre de visite du site internet;numérique;annuel
+F101;depenses_investissement_total;Dépenses d'investissement – Total des dépenses;numérique;annuel
+F102;depenses_investissement_terrai;Dépenses d'investissement – Terrains, bâtiments;numérique;annuel
+F103;depenses_investissement_inform;Dépenses d'investissement – Informatique (matériel et logiciels);numérique;annuel
+F104;depenses_investissement_vehicu;Dépenses d'investissement – Véhicules;numérique;annuel
+F105;depenses_investissement_autres;Dépenses d'investissement – Autres (mobilier, équipements);numérique;annuel
+F106;depenses_investissement_docs;Dépenses d'investissement – Documents;numérique;annuel
+F201;depenses_de_fonctionnement_dep;Dépenses de fonctionnement – Dépenses pour le personnel – Dépense totale;numérique;annuel
+F204;defraiement_benevoles;Défraiement bénévoles;numérique;annuel
+F314;depenses_de_fonctionnement_d_1;Dépenses de fonctionnement – Dépenses d'acquisitions documentaires – Dépense totale;numérique;annuel
+F401;pat_depenses_dacquisition_et_d;Patrimoine – Dépenses d’acquisition et d’entretien des collections patrimoniales – Reliure, conservation préventive et curative;numérique;annuel
+F402;pat_depenses_dacquisition_et_1;Patrimoine – Dépenses d’acquisition et d’entretien des collections patrimoniales – Conversion sur support matériel;numérique;annuel
+F403;pat_depenses_dacquisition_et_2;Patrimoine – Dépenses d’acquisition et d’entretien des collections patrimoniales – Numérisation;numérique;annuel
+F502;depenses_action_culturelle;Dépenses de fonctionnement – Dépenses spécifiques – Action culturelle;numérique;annuel
+F504;depenses_de_fonctionnement_d_3;Dépenses de fonctionnement – Dépenses spécifiques – Dépenses informatiques;numérique;annuel
+F507;depenses_de_fonctionnement_d_4;Dépenses de fonctionnement – Dépenses spécifiques – Équipement des documents;numérique;annuel
+F508;depenses_de_fonctionnement_d_5;Dépenses de fonctionnement – Dépenses spécifiques – Communication;numérique;annuel
+F601;recettes_ress_propres_et_subve;Recettes – Ressources propres et subventions – Subventions d’origine publique;numérique;annuel
+F602;recettes_ress_propres_et_sub_1;Recettes – Ressources propres et subventions – Autres ressources d'origine privée (sociétés, particuliers, …);numérique;annuel
+F603;recettes_ress_propres_et_sub_2;Recettes – Ressources propres et subventions – Recettes propres;numérique;annuel
+F604;recettes_ress_propres_et_sub_3;Recettes – Ressources propres et subventions – Recettes propres – droits d'inscription;numérique;annuel
+F605;recettes_ress_propres_et_sub_4;Recettes – Ressources propres et subventions – Recettes propres – droits d'usage pour les services de la bibliothèque;numérique;annuel
+F606;dispositifs_etat;Dispositifs d'Etat;texte;annuel
+F701;deps_acqs_docs_docs_impr_et_su;Dépenses globales détaillées d'acquisition documentaire – Documents imprimés et sur support --Livres imprimés;numérique;annuel
+F702;deps_acqs_docs_ress_num_livres;Dépenses globales détaillées d'acquisition documentaire – Ressources numériques – Livres, livres lus, dictionnaires, encyclopédies;numérique;annuel
+F703;deps_acqs_docs_docs_impr_et__1;Dépenses globales détaillées d'acquisition documentaire – Documents imprimés et sur support – Publications en série imprimées;numérique;annuel
+F704;deps_acqs_docs_ress_num_period;Dépenses globales détaillées d'acquisition documentaire – Ressources numériques – Périodiques, presse;numérique;annuel
+F705;deps_acqs_docs_docs_impr_et__2;Dépenses globales détaillées d'acquisition documentaire – Documents imprimés et sur support – Documents sonores sur support;numérique;annuel
+F706;deps_acqs_docs_ress_num_musiqu;Dépenses globales détaillées d'acquisition documentaire – Ressources numériques – Musique;numérique;annuel
+F707;deps_acqs_docs_docs_impr_et__3;Dépenses globales détaillées d'acquisition documentaire – Documents imprimés et sur support – Documents vidéo sur support;numérique;annuel
+F708;deps_acqs_docs_ress_num_video;Dépenses globales détaillées d'acquisition documentaire – Ressources numériques – Vidéo;numérique;annuel
+F709;deps_acqs_docs_docs_impr_et__4;Dépenses globales détaillées d'acquisition documentaire – Documents imprimés et sur support – Autres documents non électroniques;numérique;annuel
+F710;deps_acqs_docs_docs_impr_et__5;Dépenses globales détaillées d'acquisition documentaire – Documents imprimés et sur support – Jeux vidéo sur support;numérique;annuel
+F712;deps_acqs_docs_docs_impr_et__6;Dépenses globales détaillées d'acquisition documentaire – Documents imprimés et sur support – Total documents imprimés et sur support;numérique;annuel
+F713;deps_acqs_docs_ress_num_total;Dépenses globales détaillées d'acquisition documentaire – Ressources numériques –Total ressources numériques;numérique;annuel
+F714;depenses_documentaires;Dépenses globales détaillées d'acquisition documentaire – Total;numérique;annuel
+F715;deps_acqs_docs_ress_num_autofo;Dépenses globales détaillées d'acquisition documentaire – Ressources numériques – Autoformation;numérique;annuel
+F716;deps_acqs_docs_ress_num_autres;Dépenses globales détaillées d'acquisition documentaire – Ressources numériques – Autres ressources;numérique;annuel
+F717;depenses_jeux_de_societe;Dépenses jeux de société;numérique;annuel
+F718;participation_financiere_ress;Participation financière ressources en ligne BD;numérique;annuel
+F801;type_de_marche;Type de marché;texte;annuel
+F802;ce_marche_a_t_il_ete_passe;Ce marché a-t-il été passé;texte;annuel
+F803;duree_du_marche;Durée totale du marché;numérique;annuel
+F828;montant_total_du_marche;Montant total du marché;numérique;annuel
+G101;personnel_pers_total;Personnel – Personnes – Total;numérique;annuel
+G102;etp_salaries;Personnel – Total salariés ETPT;numérique;annuel
+G103;personnel_pros_de_la_filiere_c;Personnel – Professionnels de la filière culture – Personnes – Conservateurs;numérique;annuel
+G104;personnel_pros_de_la_filiere_1;Personnel – Professionnels de la filière culture – ETPT – Conservateurs;numérique;annuel
+G105;personnel_pros_de_la_filiere_2;Personnel – Professionnels de la filière culture – Personnes – Bibliothécaires ou attachés de conservation;numérique;annuel
+G106;personnel_pros_de_la_filiere_3;Personnel – Professionnels de la filière culture – ETPT – Bibliothécaires ou attachés de conservation;numérique;annuel
+G111;personnel_pros_de_la_filiere_4;Personnel – Professionnels de la filière culture – Personnes – Adjoints du patrimoine;numérique;annuel
+G112;personnel_pros_de_la_filiere_5;Personnel – Professionnels de la filière culture – ETPT – Adjoints du patrimoine;numérique;annuel
+G114;personnel_fp_autres_filieres_p;Personnel – Fonction publique autres filières – Personnes – Catégorie A;numérique;annuel
+G115;personnel_fp_autres_filieres_e;Personnel – Fonction publique autres filières – ETPT – Catégorie A;numérique;annuel
+G116;personnel_fp_autres_filieres_1;Personnel – Fonction publique autres filières – Personnes – Catégorie A – dont qualifiés;numérique;annuel
+G117;personnel_fp_autres_filieres_2;Personnel – Fonction publique autres filières – Personnes – Catégorie B;numérique;annuel
+G118;personnel_fp_autres_filieres_3;Personnel – Fonction publique autres filières – ETPT – Catégorie B;numérique;annuel
+G120;personnel_fp_autres_filieres_4;Personnel – Fonction publique autres filières – Personnes – Catégorie C;numérique;annuel
+G121;personnel_fp_autres_filieres_5;Personnel – Fonction publique autres filières – ETPT – Catégorie C;numérique;annuel
+G129;nombre_de_benevoles;Personnel – Bénévoles;numérique;annuel
+G130;personnel_benevoles_qualifies;Personnel – Bénévoles – dont qualifiés;numérique;annuel
+G131;temps_de_travail_des_benevoles;Personnel – Bénévoles –« ETPT »;numérique;annuel
+G132;personnel_etpt_total;Personnel –ETPT – Total;numérique;annuel
+G133;personnel_pros_de_la_filiere_6;Personnel – Professionnels de la filière culture – Personnes – Assistants territoriaux de conservation;numérique;annuel
+G134;personnel_pros_de_la_filiere_7;Personnel – Professionnels de la filière culture –ETPT– Assistants territoriaux de conservation;numérique;annuel
+G135;nombre_de_salaries;Personnel – Total salariés – Personnes;numérique;annuel
+G136;personnel_pros_de_la_filiere_8;Personnel – Professionnels de la filière culture – ETPT – Adjoints du patrimoine – dont qualifiés;numérique;annuel
+G137;personnel_fp_autres_filieres_6;Personnel – Fonction publique autres filières – ETPT – Catégorie A – dont qualifiés;numérique;annuel
+G138;personnel_fp_autres_filieres_7;Personnel – Fonction publique autres filières – ETPT – Catégorie B – dont qualifiés;numérique;annuel
+G139;personnel_fp_autres_filieres_8;Personnel – Fonction publique autres filières – ETPT – Catégorie C – dont qualifiés;numérique;annuel
+G142;personnel_personnel_benevoles;Personnel – Personnel – Bénévoles – dont qualifiés (ETPT);numérique;annuel
+G143;une_partie_au_moins_du_personn;Une partie au moins du personnel est-elle salariée ?;oui/non;annuel
+G1XX;categ_a_total_pers;Catégorie A total - Personnes;numérique;annuel
+G1XX;categ_a_total_etp;Catégorie A total - ETP;numérique;annuel
+G146;categ_a_non_titulaires;Catégorie A – non-titulaires;numérique;annuel
+G1XX;categ_a_total_non_titulaires_e;Catégorie A total - dont non-titulaires ETP;numérique;annuel
+G1XX;categ_b_total_pers;Catégorie B total - Personnes;numérique;annuel
+G1XX;categ_b_total_etp;Catégorie B total - ETP;numérique;annuel
+G147;categ_b_non_titulaires;Catégorie B – non-titulaires;numérique;annuel
+G1XX;categ_b_total_non_titulaires_e;Catégorie B total - dont non-titulaires ETP;numérique;annuel
+G1XX;categ_c_total_pers;Catégorie C total - Personnes;numérique;annuel
+G1XX;categ_c_total_etp;Catégorie C total - ETP;numérique;annuel
+G148;categ_c_non_titulaires;Catégorie C – non-titulaires;numérique;annuel
+G1XX;categ_c_total_non_titulaires_e;Catégorie C total - dont non-titulaires ETP;numérique;annuel
+G144;vacataires_pers;Vacataires - Personnes;numérique;annuel
+G145;vacataires_etp;Vacataires - ETP;numérique;annuel
+G149;postes_de_categ_a_non_occupes;Postes de catégorie A non occupés plus de 6 mois dans l'année;numérique;annuel
+G150;postes_de_categ_b_non_occupes;Postes de catégorie B non occupés plus de 6 mois dans l'année;numérique;annuel
+G151;postes_de_categ_c_non_occupes;Postes de catégorie C non occupés plus de 6 mois dans l'année;numérique;annuel
+G152;nb_pers_hors_filiere_culturell;Nb personnes hors filière culturelle de catégorie A+;numérique;annuel
+G153;nb_pers_hors_filiere_culture_1;Nb personnes hors filière culturelle de catégorie A;numérique;annuel
+G154;nb_pers_hors_filiere_culture_2;Nb personnes hors filière culturelle de catégorie B;numérique;annuel
+G155;nb_pers_hors_filiere_culture_3;Nb personnes hors filière culturelle de catégorie C;numérique;annuel
+G156;nb_postes_pers_de_categ_a_a;Nb postes/personnes de catégorie A/A+;numérique;annuel
+G157;nb_postes_pers_de_categ_b;Nb postes/personnes de catégorie B;numérique;annuel
+G158;nb_postes_pers_de_categ_c;Nb postes/personnes de catégorie C;numérique;annuel
+G1XX;etp_adjoint_du_pat_non_occupe;ETP Adjoint du patrimoine non-occupé plus de 6 mois dans l'année;numérique;annuel
+G211;formation_du_personnel_nb_de_j;Formation – Formation du personnel – Nombre de jours;numérique;annuel
+G202;formation_du_personnel_nb_de_p;Formation – Formation du personnel – Nombre de personnes formées;numérique;annuel
+G213;formation_des_acteurs_du_tiers;Formation – Formation des acteurs du tiers réseau – Nombre de jours;numérique;annuel
+G204;formation_des_acteurs_du_tie_1;Formation – Formation des acteurs du tiers réseau – Nombre de personnes formées;numérique;annuel
+G205;formation_professionnelle_nb_d;Formation – Formation professionnelle – Nombre de jours;numérique;annuel
+G206;formation_professionnelle_nb_1;Formation – Formation professionnelle – Nombre de participants;numérique;annuel
+G207;formations_dispensees_par_le_p;Formation – Formations dispensées par le personnel – Nombre de jours;numérique;annuel
+H101;part_et_coop_institutions_ecol;Partenariat et coopération – Institutions – Établissements scolaires et universitaires – Écoles;oui/non;annuel
+H102;part_et_coop_institutions_ec_1;Partenariat et coopération – Institutions – Établissements scolaires et universitaires – Écoles – Nombre de classes;numérique;annuel
+H103;part_et_coop_institutions_ec_2;Partenariat et coopération – Institutions – Établissements scolaires et universitaires – Écoles – Estimation de la population touchée;numérique;annuel
+H104;part_et_coop_institutions_coll;Partenariat et coopération – Institutions – Établissements scolaires et universitaires – Collèges;oui/non;annuel
+H105;part_et_coop_institutions_co_1;Partenariat et coopération – Institutions – Établissements scolaires et universitaires – Collèges – Nombre de classes;numérique;annuel
+H106;part_et_coop_institutions_co_2;Partenariat et coopération – Institutions – Établissements scolaires et universitaires – Collèges – Estimation de la population touchée;numérique;annuel
+H107;part_et_coop_institutions_lyce;Partenariat et coopération – Institutions – Établissements scolaires et universitaires – Lycées;oui/non;annuel
+H108;part_et_coop_institutions_ly_1;Partenariat et coopération – Institutions – Établissements scolaires et universitaires – Lycées – Nombre de classes;numérique;annuel
+H109;part_et_coop_institutions_ly_2;Partenariat et coopération – Institutions – Établissements scolaires et universitaires – Lycées – Estimation de la population touchée;numérique;annuel
+H110;part_et_coop_institutions_supe;Partenariat et coopération – Institutions – Établissements scolaires et universitaires – Supérieur;oui/non;annuel
+H111;part_et_coop_institutions_su_1;Partenariat et coopération – Institutions – Établissements scolaires et universitaires – Supérieur – Estimation de la population touchée;numérique;annuel
+H112;part_et_coop_institutions_hopi;Partenariat et coopération – Institutions – Hôpitaux;oui/non;annuel
+H113;part_et_coop_institutions_ho_1;Partenariat et coopération – Institutions – Hôpitaux – Estimation de la population touchée;numérique;annuel
+H114;part_et_coop_institutions_pris;Partenariat et coopération – Institutions – Prisons, Centres de semi-liberté, protection judiciaire de la jeunesse;oui/non;annuel
+H115;part_et_coop_institutions_pr_1;Partenariat et coopération – Institutions – Prisons, Centres de semi-liberté, protection judiciaire de la jeunesse – estimation de la population touchée;numérique;annuel
+H116;part_et_coop_institutions_mais;Partenariat et coopération – Institutions – Maisons de retraite;oui/non;annuel
+H117;part_et_coop_institutions_ma_1;Partenariat et coopération – Institutions – Maisons de retraite – Estimation de la population touchée;numérique;annuel
+H118;part_et_coop_institutions_cent;Partenariat et coopération – Institutions – Centres sociaux;oui/non;annuel
+H119;part_et_coop_institutions_ce_1;Partenariat et coopération – Institutions – Centres sociaux – Estimation de la population touchée;numérique;annuel
+H120;part_et_coop_institutions_ce_2;Partenariat et coopération – Institutions – Centres de loisirs;oui/non;annuel
+H121;part_et_coop_institutions_ce_3;Partenariat et coopération – Institutions – Centres de loisirs – Estimation de la population touchée;numérique;annuel
+H122;part_et_coop_institutions_serv;Partenariat et coopération – Institutions – Services de la petite enfance;oui/non;annuel
+H123;part_et_coop_institutions_se_1;Partenariat et coopération – Institutions – Services de la petite enfance – estimation de la population touchée;numérique;annuel
+H124;part_et_coop_institutions_se_2;Partenariat et coopération – Institutions – Services de l'emploi;oui/non;annuel
+H125;part_et_coop_institutions_se_3;Partenariat et coopération – Institutions – Services de l'emploi – Estimation de la population touchée;numérique;annuel
+H126;part_et_coop_institutions_autr;Partenariat et coopération – Institutions – Autres;oui/non;annuel
+H127;part_et_coop_institutions_au_1;Partenariat et coopération – Institutions – Autres – Estimation de la population touchée;numérique;annuel
+H128;part_et_coop_institutions_etab;Partenariat et coopération – Institutions – Établissements médico-sociaux;oui/non;annuel
+H129;part_et_coop_institutions_et_1;Partenariat et coopération – Institutions – Établissements médico-sociaux – Estimation de la population touchée;numérique;annuel
+H130;part_et_coop_institutions_ec_3;Partenariat et coopération – Institutions – Établissements scolaires et universitaires – Écoles – Nombre d’accueils de classes;numérique;annuel
+H131;part_et_coop_institutions_co_3;Partenariat et coopération – Institutions – Établissements scolaires et universitaires – Collèges – Nombre d’accueils de classes;numérique;annuel
+H132;part_et_coop_institutions_ly_3;Partenariat et coopération – Institutions – Établissements scolaires et universitaires – Lycées – Nombre d’accueils de classes;numérique;annuel
+H202;part_et_coop_equipements_cultu;Partenariat et coopération – Équipements culturels – Musées, centres d'art, ...;oui/non;annuel
+H204;part_et_coop_equipements_cul_1;Partenariat et coopération – Équipements culturels – Archives;numérique;annuel
+H206;part_et_coop_equipements_cul_2;Partenariat et coopération – Équipements culturels – Conservatoire ou école de musique;oui/non;annuel
+H208;part_et_coop_equipements_cul_3;Partenariat et coopération – Équipements culturels – Cinéma;numérique;annuel
+H210;part_et_coop_equipements_cul_4;Partenariat et coopération – Équipements culturels – Théâtre;oui/non;annuel
+H212;part_et_coop_equipements_cul_5;Partenariat et coopération – Équipements culturels – Salle de spectacle ou troupe de spectacle vivant;numérique;annuel
+H214;part_et_coop_equipements_cul_6;Partenariat et coopération – Équipements culturels – Librairie;oui/non;annuel
+H216;part_et_coop_equipements_cul_7;Partenariat et coopération – Équipements culturels – Autres;numérique;annuel
+H301;part_et_coop_associations_cult;Partenariat et coopération – Structures associatives – Culture;oui/non;annuel
+H302;part_et_coop_associations_cu_1;Partenariat et coopération – Structures associatives – Culture – Nombre d'associations;numérique;annuel
+H304;part_et_coop_associations_cu_2;Partenariat et coopération – Structures associatives – Culture – dont livre et lecture;oui/non;annuel
+H305;part_et_coop_associations_cu_3;Partenariat et coopération – Structures associatives – Culture – dont livre et lecture – Nombre d'associations;numérique;annuel
+H307;part_et_coop_associations_autr;Partenariat et coopération – Structures associatives – Autres;oui/non;annuel
+H308;part_et_coop_associations_au_1;Partenariat et coopération – Structures associatives – Autres – Nombre d'associations;numérique;annuel
+H401;actions_in_situ_expo;Actions au sein de l'établissement – Expositions;oui/non;annuel
+H402;actions_in_situ_expo_pour_tous;Actions au sein de l'établissement – Expositions – Pour tous publics;numérique;annuel
+H403;actions_in_situ_expo_pour_enfa;Actions au sein de l'établissement – Expositions – Pour enfants;numérique;annuel
+H409;actions_in_situ_anim_conferenc;Actions au sein de l'établissement – Animations dont – Conférences, rencontres, lectures;oui/non;annuel
+H410;actions_in_situ_anim_confere_1;Actions au sein de l'établissement – Animations dont – Conférences, rencontres, lectures – Pour tous publics;numérique;annuel
+H411;actions_in_situ_anim_confere_2;Actions au sein de l'établissement – Animations dont – Conférences, rencontres, lectures – Pour enfants;numérique;annuel
+H412;actions_in_situ_anim_confere_3;Actions au sein de l'établissement – Animations dont – Conférences, rencontres, lectures – Population touchée;numérique;annuel
+H417;actions_in_situ_anim_seances_d;Actions au sein de l'établissement – Animations dont – Séances de conte;oui/non;annuel
+H418;actions_in_situ_anim_seances_1;Actions au sein de l'établissement – Animations dont – Séances de conte – Pour enfants;numérique;annuel
+H419;actions_in_situ_anim_seances_2;Actions au sein de l'établissement – Animations dont – Séances de conte – Population touchée;numérique;annuel
+H424;actions_in_situ_anim_fetes_sal;Actions au sein de l'établissement – Animations dont – Fêtes, salons du livre, festivals;oui/non;annuel
+H425;actions_in_situ_anim_fetes_s_1;Actions au sein de l'établissement – Animations dont – Fêtes, salons du livre, festivals – Pour tous publics;numérique;annuel
+H426;actions_in_situ_anim_fetes_s_2;Actions au sein de l'établissement – Animations dont – Fêtes, salons du livre, festivals – Pour enfants;numérique;annuel
+H428;actions_in_situ_anim_autres;Actions au sein de l'établissement – Animations dont – Autres;oui/non;annuel
+H429;actions_in_situ_anim_autres_po;Actions au sein de l'établissement – Animations dont – Autres – Pour tous publics;numérique;annuel
+H430;actions_in_situ_anim_autres__1;Actions au sein de l'établissement – Animations dont – Autres – Pour enfants;numérique;annuel
+H436;actions_in_situ_anim_seances_3;Actions au sein de l'établissement – Animations dont – Séances de conte – Pour tous publics;numérique;annuel
+H437;concert_oui_non;Concert oui/non;oui/non;annuel
+H438;concert_pour_tous_publics;Concert pour tous publics;numérique;annuel
+H439;concert_pour_enfants;Concert pour enfants;numérique;annuel
+H440;concert_pop_touchee;Concert population touchée;numérique;annuel
+H441;projection_oui_non;Projection oui/non;oui/non;annuel
+H442;projection_pour_tous_publics;Projection pour tous publics;numérique;annuel
+H443;projection_pour_enfants;Projection pour enfants;numérique;annuel
+H444;projection_pop_touchee;Projection population touchée;numérique;annuel
+H445;clubs_de_lecteurs_oui_non;Clubs de lecteurs oui/non;oui/non;annuel
+H446;clubs_de_lecteurs_pour_tous_pu;Clubs de lecteurs pour tous publics;numérique;annuel
+H447;clubs_de_lecteurs_pour_enfants;Clubs de lecteurs pour enfants;numérique;annuel
+H448;clubs_de_lecteurs_pop_touchee;Clubs de lecteurs population touchée;numérique;annuel
+H449;ateliers_ecriture_oui_non;Ateliers d'écriture oui/non;oui/non;annuel
+H450;ateliers_ecriture_pour_tous_pu;Ateliers d'écriture pour tous publics;numérique;annuel
+H451;ateliers_ecriture_pour_enfants;Ateliers d'écriture pour enfants;numérique;annuel
+H452;ateliers_ecriture_pop_touchee;Ateliers d'écriture population touchée;numérique;annuel
+H453;jeux_video_sur_place_oui_non;Jeux vidéo sur place oui/non;oui/non;annuel
+H454;jeux_video_sur_place_pour_tous;Jeux vidéo sur place pour tous publics;numérique;annuel
+H455;jeux_video_sur_place_pour_enfa;Jeux vidéo sur place pour enfants;numérique;annuel
+H456;jeux_video_sur_place_pop_touch;Jeux vidéo sur place population touchée;numérique;annuel
+H457;jeux_de_societe_sur_place_oui;Jeux de société sur place oui/non;oui/non;annuel
+H458;jeux_de_societe_sur_place_pour;Jeux de société sur place pour tous publics;numérique;annuel
+H459;jeux_de_societe_sur_place_po_1;Jeux de société sur place pour enfants;numérique;annuel
+H460;jeux_de_societe_sur_place_pop;Jeux de société sur place population touchée;numérique;annuel
+H461;ateliers_oui_non;Ateliers oui/non;oui/non;annuel
+H462;ateliers_pour_tous_publics;Ateliers pour tous publics;numérique;annuel
+H463;ateliers_pour_enfants;Ateliers pour enfants;numérique;annuel
+H464;ateliers_pop_touchee;Ateliers population touchée;numérique;annuel
+H465;mediation_numerique_oui_non;Médiation numérique oui/non;oui/non;annuel
+H466;mediation_numerique_pour_tous;Médiation numérique pour tous publics;numérique;annuel
+H467;mediation_numerique_pour_enfan;Médiation numérique pour enfants;numérique;annuel
+H468;mediation_numerique_pop_touche;Médiation numérique population touchée;numérique;annuel
+H469;escape_game_oui_non;Escape Game oui/non;oui/non;annuel
+H470;escape_game_pour_tous_publics;Escape Game pour tous publics;numérique;annuel
+H471;escape_game_pour_enfants;Escape Game pour enfants;numérique;annuel
+H472;escape_game_pop_touchee;Escape Game population touchée;numérique;annuel
+H473;formation_tout_au_long_de_la_v;Formation tout au long de la vie oui/non;oui/non;annuel
+H474;formation_tout_au_long_de_la_1;Formation tout au long de la vie pour tous publics;numérique;annuel
+H475;formation_tout_au_long_de_la_2;Formation tout au long de la vie pour enfants;numérique;annuel
+H476;formation_tout_au_long_de_la_3;Formation tout au long de la vie population touchée;numérique;annuel
+H477;propositions_en_libre_acces_ou;Propositions en libre accès oui/non;oui/non;annuel
+H478;propositions_en_libre_acces_po;Propositions en libre accès pour tous publics;numérique;annuel
+H479;propositions_en_libre_acces__1;Propositions en libre accès pour enfants;numérique;annuel
+H480;emi_oui_non;EMI oui/non;oui/non;annuel
+H481;emi_pour_tous_publics;EMI pour tous publics;numérique;annuel
+H482;emi_pour_enfants;EMI pour enfants;numérique;annuel
+H483;emi_pop_touchee;EMI population touchée;numérique;annuel
+H484;ateliers_participatifs_oui_non;Ateliers participatifs oui/non;oui/non;annuel
+H485;ateliers_participatifs_pour_to;Ateliers participatifs pour tous publics;numérique;annuel
+H486;ateliers_participatifs_pour_en;Ateliers participatifs pour enfants;numérique;annuel
+H501;actions_hors_les_murs_actions;Actions hors de l'établissement – Actions hors les murs;oui/non;annuel
+H502;actions_hors_les_murs_action_1;Actions hors de l'établissement – Actions hors les murs – Nombre d'actions;numérique;annuel
+H504;actions_hors_les_murs_portage;Actions hors de l'établissement – Portage à domicile;oui/non;annuel
+H505;actions_hors_les_murs_portag_1;Actions hors de l'établissement – Portage à domicile – Nombre d’actions;numérique;annuel
+H506;actions_hors_les_murs_portag_2;Actions hors de l'établissement – Portage à domicile – Population touchée;numérique;annuel
+H601;actions_de_coop_coop_locale;Actions de coopération – Coopération locale;oui/non;annuel
+H604;actions_de_coop_coop_nationale;Actions de coopération – Coopération nationale;oui/non;annuel
+H607;actions_de_coop_coop_internati;Actions de coopération – Coopération internationale;oui/non;annuel
+H611;actions_de_coop_coop_locale_ca;Actions de coopération – Coopération locale – Catalogue commun;oui/non;annuel
+H612;actions_de_coop_coop_locale_po;Actions de coopération – Coopération locale – Portail documentaire commun;oui/non;annuel
+H613;actions_de_coop_coop_locale__1;Actions de coopération – Coopération locale – Politique documentaire commune;oui/non;annuel
+H614;actions_de_coop_coop_locale_na;Actions de coopération – Coopération locale – Navette documentaire;oui/non;annuel
+H615;actions_de_coop_coop_locale__2;Actions de coopération – Coopération locale – Carte unique de lecteur;oui/non;annuel
+H616;actions_de_coop_coop_locale_au;Actions de coopération – Coopération locale – Autre action de coopération intercommunale;oui/non;annuel
+H617;actions_de_coop_coop_locale_ac;Actions de coopération – Coopération locale – Action culturelle commune;oui/non;annuel
+H618;coop_intercommunale;Coopération intercommunale;oui/non;annuel
+H619;coop_avec_autres_bm_hors_inter;Coopération avec d'autres BM hors interco;oui/non;annuel
+H620;coop_avec_la_bd;Coopération avec la BD;oui/non;annuel
+H704;actions_handicap;Actions et services à destination de publics à besoins spécifiques – Personnes en situation de handicap;oui/non;annuel
+H705;actions_handicap_nb;Actions et services à destination de publics à besoins spécifiques – Personnes en situation de handicap – Nombre d'actions;numérique;annuel
+H706;actions_handicap_pop;Actions et services à destination de publics à besoins spécifiques – Personnes en situation de handicap – Population touchée;numérique;annuel
+H713;actions_emploi;Actions et services à destination de publics à besoins spécifiques – Personnes en recherche d'emploi;oui/non;annuel
+H714;actions_emploi_nb;Actions et services à destination de publics à besoins spécifiques – Personnes en recherche d'emploi – Nombre d'actions;numérique;annuel
+H715;actions_emploi_pop;Actions et services à destination de publics à besoins spécifiques – Personnes en recherche d'emploi – Population touchée;numérique;annuel
+H716;actions_illettrisme;Actions et services à destination de publics à besoins spécifiques – Personnes en situation illettrisme;oui/non;annuel
+H717;actions_illettrisme_nb;Actions et services à destination de publics à besoins spécifiques – Personnes en situation illettrisme – Nombre d'actions;numérique;annuel
+H718;actions_illettrisme_pop;Actions et services à destination de publics à besoins spécifiques – Personnes en situation illettrisme – Population touchée;numérique;annuel
+H719;actions_non_francophones;Actions et services à destination de publics à besoins spécifiques – Populations non francophones;oui/non;annuel
+H720;actions_non_francophones_nb;Actions et services à destination de publics à besoins spécifiques – Populations non francophones – Nombre d'actions;numérique;annuel
+H721;actions_non_francophones_pop;Actions et services à destination de publics à besoins spécifiques – Populations non francophones – Population touchée;numérique;annuel
+H725;actions_insertion;Actions et services à destination de publics à besoins spécifiques – Population en situation d’insertion sociale;oui/non;annuel
+H726;actions_insertion_nb;Actions et services à destination de publics à besoins spécifiques – Population en situation d’insertion sociale – Nombre d'actions;numérique;annuel
+H727;actions_insertion_pop;Actions et services à destination de publics à besoins spécifiques – Population en situation d’insertion sociale – Population touchée;numérique;annuel
+H729;pers_handicap_nb_actions_ts_publics;Personnes en situation de handicap – Nombre d'actions pour tous publics;numérique;annuel
+H730;pers_en_handicap_nb_actions_enfants;Personnes en situation de handicap – Nombre d'actions pour enfants;numérique;annuel
+H731;pers_en_illectronisme_oui_non;Personnes en situation d'illectronisme oui/non;oui/non;annuel
+H732;pers_en_illectronisme_nb_actio;Personnes en situation d'illectronisme - Nombre d'actions;numérique;annuel
+H733;pers_en_illectronisme_pop_touc;Personnes en situation d'illectronisme - Population touchée;numérique;annuel
+H734;pops_non_francophones_nb_actio;Populations non francophones – Nombre d'actions pour tous publics;numérique;annuel
+H735;pops_non_francophones_nb_act_1;Populations non francophones – Nombre d'actions pour enfants;numérique;annuel
+H736;publics_sous_main_de_justice_o;Publics sous main de justice oui/non;oui/non;annuel
+H737;publics_sous_main_de_justice_n;Publics sous main de justice - Nombre d'actions pour tout publics;numérique;annuel
+H738;publics_sous_main_de_justice_1;Publics sous main de justice - Nombre d'actions pour enfants;numérique;annuel
+H739;publics_sous_main_de_justice_p;Publics sous main de justice - Population touchée;numérique;annuel
+H740;services_salle_s_de_travail_en;Services physiques de la bibliothèque - Salle(s) de travail en groupe oui/non;oui/non;annuel
+H741;services_auditorium_oui_non;Services physiques de la bibliothèque - Auditorium oui/non;oui/non;annuel
+H742;services_salle_de_spectacle_ou;Services physiques de la bibliothèque - Salle de spectacle oui/non;oui/non;annuel
+H743;services_fablab_oui_non;Services physiques de la bibliothèque - Fablab oui/non;oui/non;annuel
+H744;services_cafeteria_oui_non;Services physiques de la bibliothèque - Cafétéria oui/non;oui/non;annuel
+H745;services_grainotheque_oui_non;Services physiques de la bibliothèque - Grainothèque oui/non;oui/non;annuel
+H746;services_artotheque_oui_non;Services physiques de la bibliothèque – Artothèque oui/non;oui/non;annuel
+I101;commentaires;Commentaires;texte;annuel
+J201;gratuite_des_services;Inscription et tarifs – L'inscription et le prêt sont-ils gratuits pour tous les usagers ?;oui/non;annuel
+J601;local_specifique;Usage des locaux – Disposez-vous d'un local spécifique pour la bibliothèque ?;oui/non;annuel
+K101;montant_acquisitions_pat;Patrimoine – Dépenses d’acquisition et d’entretien des collections patrimoniales – Acquisition;numérique;annuel
+K201;pat_fonds_et_acqs_livres_impr;Patrimoine – fonds et acquisitions – livres imprimés – oui/non;oui/non;annuel
+K202;pat_fonds_et_acqs_livres_imp_1;Patrimoine – fonds et acquisitions – livres imprimés – fonds (UM);numérique;annuel
+K203;pat_fonds_et_acqs_livres_imp_2;Patrimoine – fonds et acquisitions – livres imprimés – acquisitions (UM);numérique;annuel
+K206;pat_fonds_et_acqs_livres_imp_3;Patrimoine – fonds et acquisitions – livres imprimés – dont entrés par dépôt légal – fonds (UM);numérique;annuel
+K209;pat_fonds_et_acqs_livres_imp_4;Patrimoine – fonds et acquisitions – livres imprimés – dont livres d’artistes – fonds (UM);numérique;annuel
+K210;pat_fonds_et_acqs_livres_imp_5;Patrimoine – fonds et acquisitions – livres imprimés – dont livres d’artistes – acquisitions (UM);numérique;annuel
+K211;pat_fonds_et_acqs_perios_oui_n;Patrimoine – fonds et acquisitions – publications en série – oui/non;oui/non;annuel
+K212;pat_fonds_et_acqs_perios_fonds;Patrimoine – fonds et acquisitions – publications en série – fonds (UM);numérique;annuel
+K213;pat_fonds_et_acqs_perios_acqs;Patrimoine – fonds et acquisitions – publications en série – acquisitions (UM);numérique;annuel
+K214;pat_fonds_et_acqs_mss_oui_non;Patrimoine – fonds et acquisitions – manuscrits – oui/non;oui/non;annuel
+K215;pat_fonds_et_acqs_docs_darchiv;Patrimoine – fonds et acquisitions – documents d’archives – oui/non;oui/non;annuel
+K216;pat_fonds_et_acqs_docs_darch_1;Patrimoine – fonds et acquisitions – documents d’archives – fonds (ML);numérique;annuel
+K217;pat_fonds_et_acqs_docs_darch_2;Patrimoine – fonds et acquisitions – documents d’archives – acquisitions (ML);numérique;annuel
+K218;pat_fonds_et_acqs_cartes_oui_n;Patrimoine – fonds et acquisitions – cartes – oui/non;oui/non;annuel
+K219;pat_fonds_et_acqs_cartes_fonds;Patrimoine – fonds et acquisitions – cartes – fonds (UM);numérique;annuel
+K220;pat_fonds_et_acqs_cartes_acqs;Patrimoine – fonds et acquisitions – cartes – acquisitions (UM);numérique;annuel
+K221;pat_fonds_et_acqs_musique_impr;Patrimoine – fonds et acquisitions – musique imprimée – oui/non;oui/non;annuel
+K222;pat_fonds_et_acqs_musique_im_1;Patrimoine – fonds et acquisitions – musique imprimée – fonds (UM);numérique;annuel
+K223;pat_fonds_et_acqs_musique_im_2;Patrimoine – fonds et acquisitions – musique imprimée – acquisitions (UM);numérique;annuel
+K224;pat_fonds_et_acqs_docs_graphiq;Patrimoine – fonds et acquisitions – documents graphiques – oui/non;oui/non;annuel
+K225;pat_fonds_et_acqs_docs_graph_1;Patrimoine – fonds et acquisitions – documents graphiques – fonds (UM);numérique;annuel
+K226;pat_fonds_et_acqs_docs_graph_2;Patrimoine – fonds et acquisitions – documents graphiques – acquisitions (UM);numérique;annuel
+K227;pat_fonds_et_acqs_objets_oui_n;Patrimoine – fonds et acquisitions – objets – oui/non;oui/non;annuel
+K228;pat_fonds_et_acqs_objets_fonds;Patrimoine – fonds et acquisitions – objets – fonds (UM);numérique;annuel
+K229;pat_fonds_et_acqs_objets_acqs;Patrimoine – fonds et acquisitions – objets – acquisitions (UM);numérique;annuel
+K230;pat_fonds_et_acqs_docs_sonores;Patrimoine – fonds et acquisitions – documents sonores sur support – oui/non;oui/non;annuel
+K231;pat_fonds_et_acqs_docs_sonor_1;Patrimoine – fonds et acquisitions – documents sonores sur support – fonds (UM);numérique;annuel
+K232;pat_fonds_et_acqs_docs_sonor_2;Patrimoine – fonds et acquisitions – documents sonores sur support – acquisitions (UM);numérique;annuel
+K233;pat_fonds_et_acqs_images_anime;Patrimoine – fonds et acquisitions – images animées sur support – oui/non;oui/non;annuel
+K234;pat_fonds_et_acqs_images_ani_1;Patrimoine – fonds et acquisitions – images animées sur support – fonds (UM);numérique;annuel
+K235;pat_fonds_et_acqs_images_ani_2;Patrimoine – fonds et acquisitions – images animées sur support – acquisitions (UM);numérique;annuel
+K239;pat_fonds_et_acqs_docs_darch_3;Patrimoine – fonds et acquisitions – documents d’archives – fonds (UM);numérique;annuel
+K240;pat_fonds_et_acqs_docs_darch_4;Patrimoine – fonds et acquisitions – documents d’archives – acquisitions (UM);numérique;annuel
+K241;entrees_par_dons_legs_et_datio;Entrées par dons, legs et dations – oui/non;oui/non;annuel
+K242;entrees_par_dons_legs_et_dat_1;Entrées par dons, legs et dations – nombre de documents (UM);numérique;annuel
+K303;pat_signalement_livres_impr_no;Patrimoine – Signalement et description – livres imprimés – notices informatisées;numérique;annuel
+K309;pat_signalement_livres_impr_de;Patrimoine – Signalement et description – livres imprimés – dont entrés par dépôt légal – notices informatisées;numérique;annuel
+K312;pat_signalement_livres_impr_li;Patrimoine – Signalement et description – livres imprimés – dont livres d’artistes – notices informatisées;numérique;annuel
+K315;pat_signalement_perios_notices;Patrimoine – Signalement et description – publications en série – notices informatisées;numérique;annuel
+K318;pat_signalement_mss_notices_in;Patrimoine – Signalement et description – manuscrits – notices informatisées;numérique;annuel
+K321;pat_signalement_docs_darchives;Patrimoine – Signalement et description – documents d’archives – notices informatisées;numérique;annuel
+K324;pat_signalement_cartes_notices;Patrimoine – Signalement et description – cartes– notices informatisées;numérique;annuel
+K327;pat_signalement_musique_imprim;Patrimoine – Signalement et description – musique imprimée – notices informatisées;numérique;annuel
+K330;pat_signalement_docs_graphique;Patrimoine – Signalement et description – documents graphiques – notices informatisées;numérique;annuel
+K333;pat_signalement_objets_notices;Patrimoine – Signalement et description – objets – notices informatisées;numérique;annuel
+K336;pat_signalement_docs_sonores_s;Patrimoine – Signalement et description – documents sonores sur support – notices informatisées;numérique;annuel
+K339;pat_signalement_images_animees;Patrimoine – Signalement et description – images animées – notices informatisées;numérique;annuel
+K402;pat_num_livres_impr_total_docs;Patrimoine – Numérisation – livres imprimés – total documents numérisés – vues;numérique;annuel
+K403;pat_num_livres_impr_total_do_1;Patrimoine – Numérisation – livres imprimés – total documents numérisés – documents;numérique;annuel
+K404;pat_num_livres_impr_annee_vues;Patrimoine – Numérisation – livres imprimés – documents numérisés dans l’année – vues;numérique;annuel
+K405;pat_num_livres_impr_annee_docs;Patrimoine – Numérisation – livres imprimés – documents numérisés dans l’année – documents;numérique;annuel
+K407;pat_num_perios_total_docs_nume;Patrimoine – Numérisation – publications en série – total documents numérisés – vues;numérique;annuel
+K408;pat_num_perios_total_docs_nu_1;Patrimoine – Numérisation – publications en série – total documents numérisés – documents;numérique;annuel
+K409;pat_num_perios_annee_vues;Patrimoine – Numérisation – publications en série – documents numérisés dans l’année – vues;numérique;annuel
+K410;pat_num_perios_annee_docs;Patrimoine – Numérisation – publications en série – documents numérisés dans l’année – documents;numérique;annuel
+K412;pat_num_mss_total_docs_numeris;Patrimoine – Numérisation – manuscrits – total documents numérisés – vues;numérique;annuel
+K413;pat_num_mss_total_docs_numer_1;Patrimoine – Numérisation – manuscrits – total documents numérisés – documents;numérique;annuel
+K414;pat_num_mss_annee_vues;Patrimoine – Numérisation – manuscrits – documents numérisés dans l’année – vues;numérique;annuel
+K415;pat_num_mss_annee_docs;Patrimoine – Numérisation – manuscrits – documents numérisés dans l’année – documents;numérique;annuel
+K417;pat_num_docs_darchives_total_d;Patrimoine – Numérisation – documents d’archives – total documents numérisés – vues;numérique;annuel
+K418;pat_num_docs_darchives_total_1;Patrimoine – Numérisation – documents d’archives – total documents numérisés – documents;numérique;annuel
+K419;pat_num_docs_darchives_annee_v;Patrimoine – Numérisation – documents d’archives – documents numérisés dans l’année – vues;numérique;annuel
+K420;pat_num_docs_darchives_annee_d;Patrimoine – Numérisation – documents d’archives – documents numérisés dans l’année – documents;numérique;annuel
+K422;pat_num_cartes_total_docs_nume;Patrimoine – Numérisation – cartes – total documents numérisés – vues;numérique;annuel
+K423;pat_num_cartes_total_docs_nu_1;Patrimoine – Numérisation – cartes – total documents numérisés – documents;numérique;annuel
+K424;pat_num_cartes_annee_vues;Patrimoine – Numérisation – cartes – documents numérisés dans l’année – vues;numérique;annuel
+K425;pat_num_cartes_annee_docs;Patrimoine – Numérisation – cartes – documents numérisés dans l’année – documents;numérique;annuel
+K427;pat_num_musique_imprimee_total;Patrimoine – Numérisation – musique imprimée – total documents numérisés – vues;numérique;annuel
+K428;pat_num_musique_imprimee_tot_1;Patrimoine – Numérisation – musique imprimée – total documents numérisés – documents;numérique;annuel
+K429;pat_num_musique_imprimee_annee;Patrimoine – Numérisation – musique imprimée – documents numérisés dans l’année – vues;numérique;annuel
+K430;pat_num_musique_imprimee_ann_1;Patrimoine – Numérisation – musique imprimée – documents numérisés dans l’année – documents;numérique;annuel
+K432;pat_num_docs_graphiques_total;Patrimoine – Numérisation – documents graphiques – total documents numérisés – vues;numérique;annuel
+K433;pat_num_docs_graphiques_tota_1;Patrimoine – Numérisation – documents graphiques – total documents numérisés – documents;numérique;annuel
+K434;pat_num_docs_graphiques_annee;Patrimoine – Numérisation – documents graphiques – documents numérisés dans l’année – vues;numérique;annuel
+K435;pat_num_docs_graphiques_anne_1;Patrimoine – Numérisation – documents graphiques – documents numérisés dans l’année – documents;numérique;annuel
+K437;pat_num_objets_total_docs_nume;Patrimoine – Numérisation – objets – total documents numérisés – vues;numérique;annuel
+K438;pat_num_objets_total_docs_nu_1;Patrimoine – Numérisation – objets – total documents numérisés – documents;numérique;annuel
+K439;pat_num_objets_annee_vues;Patrimoine – Numérisation – objets – documents numérisés dans l’année – vues;numérique;annuel
+K440;pat_num_objets_annee_docs;Patrimoine – Numérisation – objets – documents numérisés dans l’année – documents;numérique;annuel
+K442;pat_num_docs_sonores_total_doc;Patrimoine – Numérisation – documents sonores – total documents numérisés – documents;numérique;annuel
+K443;pat_num_docs_sonores_annee_doc;Patrimoine – Numérisation – documents sonores – documents numérisés dans l’année – documents;numérique;annuel
+K445;pat_num_images_animees_total_d;Patrimoine – Numérisation – images animées – total documents numérisés – documents;numérique;annuel
+K446;pat_num_images_animees_annee_d;Patrimoine – Numérisation – images animées – documents numérisés dans l’année – documents;numérique;annuel
+K502;pat_mise_en_ligne_livres_impr;Patrimoine – Mise en ligne – livres imprimés – total documents mis en ligne – vues;numérique;annuel
+K503;pat_mise_en_ligne_livres_imp_1;Patrimoine – Mise en ligne – livres imprimés – total documents mis en ligne – documents;numérique;annuel
+K504;pat_mise_en_ligne_livres_imp_2;Patrimoine – Mise en ligne – livres imprimés – documents mis en ligne dans l’année – vues;numérique;annuel
+K505;pat_mise_en_ligne_livres_imp_3;Patrimoine – Mise en ligne – livres imprimés – documents mis en ligne dans l’année – documents;numérique;annuel
+K507;pat_mise_en_ligne_perios_total;Patrimoine – Mise en ligne – publications en série – total documents mis en ligne – vues;numérique;annuel
+K508;pat_mise_en_ligne_perios_tot_1;Patrimoine – Mise en ligne – publications en série – total documents mis en ligne – documents;numérique;annuel
+K509;pat_mise_en_ligne_perios_annee;Patrimoine – Mise en ligne – publications en série – documents mis en ligne dans l’année – vues;numérique;annuel
+K510;pat_mise_en_ligne_perios_ann_1;Patrimoine – Mise en ligne – publications en série – documents mis en ligne dans l’année – documents;numérique;annuel
+K512;pat_mise_en_ligne_mss_total_do;Patrimoine – Mise en ligne – manuscrits – total documents mis en ligne – vues;numérique;annuel
+K513;pat_mise_en_ligne_mss_total__1;Patrimoine – Mise en ligne – manuscrits – total documents mis en ligne – documents;numérique;annuel
+K514;pat_mise_en_ligne_mss_annee_vu;Patrimoine – Mise en ligne – manuscrits – documents mis en ligne dans l’année – vues;numérique;annuel
+K515;pat_mise_en_ligne_mss_annee_do;Patrimoine – Mise en ligne – manuscrits – documents mis en ligne dans l’année – documents;numérique;annuel
+K517;pat_mise_en_ligne_docs_darchiv;Patrimoine – Mise en ligne – documents d’archives – total documents mis en ligne – vues;numérique;annuel
+K518;pat_mise_en_ligne_docs_darch_1;Patrimoine – Mise en ligne – documents d’archives – total documents mis en ligne – documents;numérique;annuel
+K519;pat_mise_en_ligne_docs_darch_2;Patrimoine – Mise en ligne – documents d’archives – documents mis en ligne dans l’année – vues;numérique;annuel
+K520;pat_mise_en_ligne_docs_darch_3;Patrimoine – Mise en ligne – documents d’archives – documents mis en ligne dans l’année – documents;numérique;annuel
+K522;pat_mise_en_ligne_cartes_total;Patrimoine – Mise en ligne – cartes – total documents mis en ligne – vues;numérique;annuel
+K523;pat_mise_en_ligne_cartes_tot_1;Patrimoine – Mise en ligne – cartes – total documents mis en ligne – documents;numérique;annuel
+K524;pat_mise_en_ligne_cartes_annee;Patrimoine – Mise en ligne – cartes – documents mis en ligne dans l’année – vues;numérique;annuel
+K525;pat_mise_en_ligne_cartes_ann_1;Patrimoine – Mise en ligne – cartes – documents mis en ligne dans l’année – documents;numérique;annuel
+K527;pat_mise_en_ligne_musique_impr;Patrimoine – Mise en ligne – musique imprimée – total documents mis en ligne – vues;numérique;annuel
+K528;pat_mise_en_ligne_musique_im_1;Patrimoine – Mise en ligne – musique imprimée – total documents mis en ligne – documents;numérique;annuel
+K529;pat_mise_en_ligne_musique_im_2;Patrimoine – Mise en ligne – musique imprimée – documents mis en ligne dans l’année – vues;numérique;annuel
+K530;pat_mise_en_ligne_musique_im_3;Patrimoine – Mise en ligne – musique imprimée – documents mis en ligne dans l’année – documents;numérique;annuel
+K532;pat_mise_en_ligne_docs_graphiq;Patrimoine – Mise en ligne – documents graphiques – total documents mis en ligne – vues;numérique;annuel
+K533;pat_mise_en_ligne_docs_graph_1;Patrimoine – Mise en ligne – documents graphiques – total documents mis en ligne – documents;numérique;annuel
+K534;pat_mise_en_ligne_docs_graph_2;Patrimoine – Mise en ligne – documents graphiques – documents mis en ligne dans l’année – vues;numérique;annuel
+K535;pat_mise_en_ligne_docs_graph_3;Patrimoine – Mise en ligne – documents graphiques – documents mis en ligne dans l’année – documents;numérique;annuel
+K537;pat_mise_en_ligne_objets_total;Patrimoine – Mise en ligne – objets – total documents mis en ligne – vues;numérique;annuel
+K538;pat_mise_en_ligne_objets_tot_1;Patrimoine – Mise en ligne – objets – total documents mis en ligne – documents;numérique;annuel
+K539;pat_mise_en_ligne_objets_annee;Patrimoine – Mise en ligne – objets – documents mis en ligne dans l’année – vues;numérique;annuel
+K540;pat_mise_en_ligne_objets_ann_1;Patrimoine – Mise en ligne – objets – documents mis en ligne dans l’année – documents;numérique;annuel
+K542;pat_mise_en_ligne_docs_sonores;Patrimoine – Mise en ligne – documents sonores – total documents mis en ligne – documents;numérique;annuel
+K543;pat_mise_en_ligne_docs_sonor_1;Patrimoine – Mise en ligne – documents sonores – documents mis en ligne dans l’année – documents;numérique;annuel
+K545;pat_mise_en_ligne_images_anime;Patrimoine – Mise en ligne – images animées – total documents mis en ligne – documents;numérique;annuel
+K546;pat_mise_en_ligne_images_ani_1;Patrimoine – Mise en ligne – images animées – documents mis en ligne dans l’année – documents;numérique;annuel
