@@ -1,4 +1,4 @@
-L'enquête annuelle sur l'activité des bibliothèques de lecture publique (aussi appelée Neoscrib) colelcte chaque année plusieurs centaines de variables sur l'activité des bibliothèques françaises.
+L'enquête annuelle sur l'activité des bibliothèques de lecture publique (aussi appelée Neoscrib) collecte chaque année plusieurs centaines de variables sur l'activité des bibliothèques françaises.
 Ces données sont organisées dans plusieurs formaulaires, pour adapter le nombre de questions à la taille de la bibliothèque.
 Pour garantir la cohérence de ces données, un format est imposé aux contributeurs.
 Ce schéma vise à décrire et valider ce format.
